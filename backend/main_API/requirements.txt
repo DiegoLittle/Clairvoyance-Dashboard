@@ -1,0 +1,11 @@
+fastapi == 0.67.0
+
+uvicorn == 0.14.0
+
+motor == 2.5.0
+requests
+python-dotenv
+openai
+dnspython
+bs4
+python-multipart

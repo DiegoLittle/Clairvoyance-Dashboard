@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    .blue-box {
+        @apply flex w-1/4 h-full border-2 border-blue-100 rounded m-6
+    }
+
+    .cool-button{
+        @apply inline-flex py-2 px-5 text-sm rounded-xl items-center bg-blue-100 text-gray-700 hover:bg-blue-200 font-medium shadow hover:text-black
+    }
+
+    .modal-dialog{
+        @apply fixed inset-x-0 z-10 overflow-hidden;
+        top:-90%;
+        bottom:-90%;
+    }
+    .sidebar {
+        @apply flex items-center w-1/12 flex-col h-full mr-0 bg-blue-100 rounded-r-xl
+    }
+    .markdown{
+        @apply overflow-y-scroll mx-8;
+    }
+    .markdown p {
+        @apply my-4;
+    }
+    .container{
+        @apply m-2;
+    }
+
+    .project-tab{
+        @apply text-lg font-semibold mx-8 focus:border-blue-500 focus:outline-none;
+    }

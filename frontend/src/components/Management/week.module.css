@@ -1,0 +1,7 @@
+.dayCol{
+    @apply px-2 border-t border-b border-blue-100 w-36;
+}
+
+.day{
+    @apply  font-bold text-lg;
+}

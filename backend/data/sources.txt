@@ -1,0 +1,6 @@
+https://www.nextgov.com/rss
+https://news.mit.edu/rss/feed
+
+categories
+technology 
+cybersecurity

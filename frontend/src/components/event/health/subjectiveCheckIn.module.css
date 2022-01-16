@@ -1,0 +1,16 @@
+.customSlider {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  background: transparent; /* Otherwise white in Chrome */
+  @apply bg-gradient-to-r from-red-500 to-green-500 rounded-xl ;
+}
+
+.customSlider::-webkit-slider-thumb {
+  width: 15px;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  cursor: ew-resize;
+  border-radius: 50%;
+  @apply bg-gradient-to-r from-blue-500 to-blue-900;
+  
+}
